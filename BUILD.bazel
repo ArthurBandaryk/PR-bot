@@ -1,0 +1,5 @@
+cc_binary(
+    name = "result",
+    deps = ["@com_github_3rdparty_main_lib//:main-lib"],
+    srcs = ["main.cc"],
+)
