@@ -1,0 +1,13 @@
+name: Create PR which updates sha and shallow_since in `git_repository` bazel rule
+
+on:
+  # Run this workflow every minute.
+  schedule:
+    - cron: "0/1 * * * *"
+  workflow_dispatch:
+
+jobs:
+  create-PR:
+    uses: ArthurBandaryk/main-lib/.github/workflows/update-main-lib-remote.yml@main
+    secrets:
+      pr_bot_secret: ${{ secrets.pr_bot_secret }}
