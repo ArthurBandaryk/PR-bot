@@ -11,3 +11,10 @@ git_repository(
     commit = "e813938959a206777e701cd50cd88eaadcbd9c3f",
     shallow_since = "1652444989 +0300",
 )
+
+git_repository(
+    name = "com_github_3rdparty_eventuals",
+    remote = "https://github.com/3rdparty/eventuals",
+    commit = "xxxxxxxxxxxxxxxxxxxxxxxx",
+    shallow_since = "yyyyyyyyyyyyyyyyyyyyyyy",
+)
