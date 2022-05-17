@@ -1,4 +1,5 @@
 """Load git_repository from remote repo."""
+
 workspace(name = "pr-bot")
 
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
@@ -7,14 +8,14 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "com_github_3rdparty_main_lib",
-    remote = "https://github.com/ArthurBandaryk/main-lib",
     commit = "e813938959a206777e701cd50cd88eaadcbd9c3f",
+    remote = "https://github.com/ArthurBandaryk/main-lib",
     shallow_since = "1652444989 +0300",
 )
 
 git_repository(
     name = "com_github_3rdparty_eventuals",
+    commit = "d1c6cd9cc47d4a97b2b8def0d4ef8fd2489bfe98",
     remote = "https://github.com/3rdparty/eventuals",
-    commit = "xxxxxxxxxxxxxxxxxxxxxxxx",
-    shallow_since = "yyyyyyyyyyyyyyyyyyyyyyy",
+    shallow_since = "",
 )
