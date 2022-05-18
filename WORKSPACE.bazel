@@ -15,7 +15,7 @@ git_repository(
 
 git_repository(
     name = "com_github_3rdparty_eventuals",
-    commit = "d1c6cd9cc47d4a97b2b8def0d4ef8fd2489bfe98",
+    commit = "7280c83177e7121adfb018122a05765c1e78f48b",
     remote = "https://github.com/3rdparty/eventuals",
-    shallow_since = "",
+    shallow_since = "1652874172 +0300",
 )
